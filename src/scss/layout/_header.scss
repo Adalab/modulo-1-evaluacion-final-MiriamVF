@@ -1,0 +1,78 @@
+.page__header {
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header__hamburger {
+  &--container {
+    height: 44px;
+    width: 44px;
+    background-color: $cerulean;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+  }
+  &--link {
+    padding: 15px 14px;
+  }
+  &--image {
+    height: 14px;
+    width: 16px;
+  }
+}
+.header__elements {
+  &--container {
+    margin: 0 15px;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &--title {
+    font-size: 42px; //--se puede hacer variable--//
+    text-transform: uppercase;
+    text-align: center;
+    font-family: $roboto-slab;
+    color: $white;
+    line-height: 55px;
+  }
+  &--subtitle {
+    font-size: 16px; //--se puede hacer variable--//
+    text-align: center;
+    font-family: $roboto-regular;
+    color: $white;
+    bottom: 143px;
+    margin: 10px 0 45px 0;
+  }
+
+  &--scroll-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: $white;
+    margin-bottom: 53px;
+  }
+  &--scroll-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 11.7px;
+    width: 20px;
+    padding: 18px 12px 15.3px 13px;
+  }
+}
