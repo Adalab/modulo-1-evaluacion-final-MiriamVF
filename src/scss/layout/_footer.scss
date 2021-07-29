@@ -1,0 +1,51 @@
+.page__footer {
+  background-color: $dark-grey-blue;
+  margin-top: -22.5px;
+  height: 465px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 30px;
+  padding: 60px 0 45px 0;
+  color: $white;
+}
+.footer__links {
+  text-transform: uppercase;
+  text-align: center;
+  &--link {
+    text-decoration: none;
+    color: $white;
+  }
+
+  &--pages {
+    height: 150px;
+    width: 73px;
+    margin-bottom: 30px;
+  }
+  &--socialmedia {
+    height: 90px;
+    width: 147px;
+    margin-bottom: 30px;
+  }
+}
+.footer__copy {
+  font-size: 14px;
+  height: 30px;
+  width: 77px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__welove {
+  font-size: 14px;
+  height: 30px;
+  width: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fas {
+  color: $bright-orange;
+}
