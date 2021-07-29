@@ -16,19 +16,19 @@
   font-size: 14px;
   color: $lightblue;
   line-height: 30px;
-  margin-top: 30px;
+  padding-top: 30px;
   @media all and (min-width: 768px) {
     width: 216px;
   }
   @media all and (min-width: 1280px) {
     width: 360px;
     font-size: 16px;
-    margin-top: 60px;
+    padding-top: 60px;
   }
 }
 
 .module2__content {
-  font-size: 18px;
+  font-size: $main__font-size;
   color: $dark-grey-blue;
   margin-top: 15px;
   line-height: 30px;
