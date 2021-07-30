@@ -126,9 +126,9 @@
   }
 
   &:hover {
-    background-color: $white;
+    background-color: $cerulean;
     color: $white;
-    border: $dark-grey-blue;
+    border: solid 2px $dark-grey-blue;
   }
 
   &--text {
@@ -158,6 +158,11 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    transition: background-color ease 0.8s;
+    &:hover {
+      background-color: $cerulean;
+      border: solid 2px $white;
+    }
   }
   &-image {
     display: flex;

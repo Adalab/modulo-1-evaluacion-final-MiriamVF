@@ -13,7 +13,10 @@
     height: 240px;
     flex-direction: row;
     justify-content: space-between;
-    padding: 45px 39px;
+    align-items: flex-start;
+    padding-top: 45px;
+    padding-left: 39px;
+    padding-right: 39px;
   }
   @media all and (min-width: 1280px) {
     padding-left: 370px;
@@ -67,8 +70,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
   @media all and (min-width: 768px) {
-    align-items: flex-start;
+    justify-content: flex-start;
     order: -1;
   }
 }

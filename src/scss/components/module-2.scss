@@ -57,9 +57,9 @@
   }
 
   &:hover {
-    background-color: $bright-orange;
+    background-color: $cerulean;
     color: $white;
-    border: $dark-grey-blue;
+    border: solid 2px $dark-grey-blue;
   }
 
   &--text {

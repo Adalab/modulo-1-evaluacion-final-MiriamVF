@@ -99,11 +99,16 @@
     border-radius: 50%;
     background-color: $white;
     margin-bottom: 53px;
+    transition: background-color ease 0.8s;
     @media all and (min-width: 768px) {
       margin-bottom: 45px;
     }
     @media all and (min-width: 1280px) {
       margin-bottom: 13px;
+    }
+    &:hover {
+      background-color: $cerulean;
+      border: solid 2px $white;
     }
   }
   &--scroll-image {
