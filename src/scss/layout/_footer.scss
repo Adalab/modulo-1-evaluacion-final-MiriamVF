@@ -4,46 +4,99 @@
   height: 465px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   line-height: 30px;
   padding: 60px 0 45px 0;
   color: $white;
+  @media all and (min-width: 768px) {
+    height: 240px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 45px 39px;
+  }
+  @media all and (min-width: 1280px) {
+    padding-left: 370px;
+    padding-right: 370px;
+  }
 }
 .footer__links {
   text-transform: uppercase;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media all and (min-width: 768px) {
+    align-items: flex-start;
+  }
+
   &--link {
     text-decoration: none;
     color: $white;
   }
-
   &--pages {
     height: 150px;
     width: 73px;
     margin-bottom: 30px;
+    @media all and (min-width: 768px) {
+      width: 210px;
+      margin-bottom: 0;
+    }
+    @media all and (min-width: 1280px) {
+      width: 161px;
+    }
   }
-  &--socialmedia {
+  &--rrss {
     height: 90px;
     width: 147px;
     margin-bottom: 30px;
+    width: 73px;
+    @media all and (min-width: 768px) {
+      width: 210px;
+      margin-bottom: 0;
+    }
+    @media all and (min-width: 1280px) {
+      width: 159px;
+    }
+  }
+}
+.footer_copyandwelove--container {
+  font-size: 14px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  @media all and (min-width: 768px) {
+    align-items: flex-start;
+    order: -1;
   }
 }
 .footer__copy {
-  font-size: 14px;
-  height: 30px;
   width: 77px;
   display: flex;
   justify-content: center;
   align-items: center;
+  @media all and (min-width: 768px) {
+    justify-content: flex-start;
+    width: 210px;
+  }
+  @media all and (min-width: 1280px) {
+    width: 159px;
+  }
 }
 .footer__welove {
-  font-size: 14px;
-  height: 30px;
   width: 290px;
   display: flex;
   justify-content: center;
   align-items: center;
+  @media all and (min-width: 768px) {
+    justify-content: flex-start;
+    width: 210px;
+  }
+  @media all and (min-width: 1280px) {
+    width: 159px;
+  }
 }
 
 .fas {
