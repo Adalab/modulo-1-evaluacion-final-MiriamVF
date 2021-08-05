@@ -1,5 +1,5 @@
 .page__footer {
-  background-color: $dark-grey-blue;
+  background-color: $cerulean;
   margin-top: -22.5px;
   height: 465px;
   display: flex;
@@ -7,20 +7,16 @@
   justify-content: center;
   align-items: center;
   line-height: 30px;
-  padding: 60px 0 45px 0;
-  color: $white;
+  padding: 45px 0 45px 0;
+  color: black;
   @media all and (min-width: 768px) {
     height: 240px;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    padding-top: 45px;
-    padding-left: 39px;
-    padding-right: 39px;
-  }
-  @media all and (min-width: 1280px) {
-    padding-left: 370px;
-    padding-right: 370px;
+
+    padding-left: 45px;
+    padding-right: 45px;
   }
 }
 .footer__links {
@@ -35,7 +31,7 @@
 
   &--link {
     text-decoration: none;
-    color: $white;
+    color: black;
   }
   &--pages {
     height: 150px;
@@ -73,7 +69,7 @@
 
   @media all and (min-width: 768px) {
     justify-content: flex-start;
-    order: -1;
+    order: 5;
   }
 }
 .footer__copy {
@@ -100,6 +96,14 @@
   }
   @media all and (min-width: 1280px) {
     width: 159px;
+  }
+  &--component {
+    @media all and (min-width: 768px) {
+      color: $bright-orange;
+    }
+    @media all and (min-width: 1280px) {
+      color: black;
+    }
   }
 }
 
